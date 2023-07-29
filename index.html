@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            grocerymart.com
+        </title>
+          <link rel="icon" type="image/icon" href="c:\Users\Lenovo\Downloads\clipart2956167.png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link type="text/css" rel="stylesheet" href="groc.css">
+
+
+         <link  rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+         
+
+         <meta name="viewport" content="width=device-width, initial-scale="1.0">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo"><i class="fa fa-shopping-basket"></i>Grocery</i></a>
+        
+       <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#feature">FEATURE</a>
+        <a href="#product">PRODUCT</a>
+        <a href="#categories">CATEGORIES</a>
+        <a href="#review">REVIEW</a>
+       </nav>
+
+
+       <form action="#login-form" class="login-form">
+        <h2>Login Now</h2>
+        
+        <input type="email" placeholder="enter email" class="box">
+        <input type="password" placeholder="enter password" class="box">
+        <input type="submit" value="login now" class="btn">
+       
+    <p> Forget your possword ?
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\project work\link .html">Click here</a></p>
+        <p> Don't have an account ?
+            <a href="#">Create Now</a></p>
+    </form>
+
+       <div class="icons">
+    <div class="fa fa-bars" id="menu-btn"></div>
+    <div class="fa fa-search" id="search-btn"></div>
+    <div class="fa fa-shopping-cart" id="cart-btn"></div>
+    <div class="fa fa-user" id="login-btn"></div>
+       </div>
+       <form class="search-form">
+        <input type="search" id="search-box" placeholder="search here..">
+        <label for="search-box" class="fa fa-search"></label>
+       </form>
+
+   <div class="shopping-cart">
+    <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="c:\Users\Lenovo\Downloads\PngItem_617379.png">
+        <div class="contant">
+            <h3>Hair oil</h3>
+            <span class="price">Rs.70/-</span>
+            <span class="qunatity"> Qty :1</span>
+        </div>
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="pngkit_food-png_41804.png">
+            <div class="contant">
+                <h3>Chicken</h3>
+                <span class="price">Rs.120/-</span>
+                <span class="qunatity"> Qty :1</span>
+            </div>
+
+    </div>
+    <div class="total">Total : Rs.210/-</div>
+    <a href="#home" class="btn">Checkout</a>    
+       
+ </div>
+ </header>
+ <section class="home" id="home">
+            <div class="content">
+                <h3>ONLINE<span> GROCERY SHOP </span> FOR YOU </h3>
+                <p>This website is providing you the best organic vegetable 
+                and grocery items. Which you need in your daily life.</p>
+
+             <a href="#" class="btn">Shop Now</a>
+           </div>
+ </section>
+
+
+<!--our feature section-->
+
+<section class="feature" id="feature">
+    <h1 class="heading">Our <span> Feature</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="feature.jpg">
+            <h3>Fresh and Organic</h3>
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <a href="#home" class="btn">Read more</a>
+        </div>
+        <div class="box">
+            <img src="images.png">
+            <h3>Free and Fast Delivery</h3>
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <a href="#home" class="btn">Read more</a>
+        </div>
+        <div class="box">
+            <img src="pay.jpeg">
+            <h3>Easy pay</h3>
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <a href="#home" class="btn">Read more</a>
+        </div>     
+    </div>
+</section>
+<!--our feature section-->
+
+
+
+
+
+
+<!--product-->
+
+<section class="product" id="product">
+    <h1 class="heading">Our <span>Product</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\22809-2-bread-clipart.png">
+                <h1> Bread </h1>
+                <div class="price"> Rs.30/- -50/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i> </div>
+                    <a href="#bread" class="btn"> <btn onclick="save()">Add ro cart</btn></a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\grilled-fresh-fish.jpg">
+                <h1>Fish</h1>
+                <div class="price"> Rs.200/- -250/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i> </div>
+                    <a href="#fish" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\pngkit_food-png_41804.png">
+                <h1> Chiken </h1>
+                <div class="price"> Rs.150/- -200/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> </div>
+                    <a href="#chicken" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\PngItem_617379.png">
+                <h1>Oil</h1>
+                <div class="price"> Rs.50/- -150/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> </div>
+                    <a href="#oil" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+            </div>
+              
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\kisspng-buttermilk-cream-mother-dairy-dairy-products-5af7feeae6d7f4.5794187315262020909455.png">
+                <h1> Milk</h1>
+                <div class="price"> Rs.50/- -60/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> </div>
+                    <a href="#milk" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\pngkit_healthy-food-icon-png_5197133.png">
+                <h1>Pulses</h1>
+                <div class="price"> Rs.150/- -160/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i> </div>
+                    <a href="#pulses" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\Daco_1071827.png">
+                <h1>Cold Drinks</h1>
+                <div class="price"> Rs.90/- -150/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i> </div>
+                    <a href="#cold drink" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\PngItem_1248949.png">
+                <h1>Namkeen</h1>
+                <div class="price"> Rs.30/- -100/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> </div>
+                    <a href="#namkeen" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\tata-salt-lite.jpg">
+                <h1>Salt</h1>
+                <div class="price"> Rs.20/- -80/-</div>
+                <div class="stars"> 
+                    <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> </div>
+                    <a href="#salt" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+                </div>
+        
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="c:\Users\Lenovo\Downloads\images aple.jpg">
+                    <h1>Apple</h1>
+                    <div class="price"> Rs.50/- -160/-</div>
+                    <div class="stars"> 
+                        <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i> </div>
+                        <a href="#apple" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+                    </div>
+
+        <div class="swiper-slide box">
+          <img src="c:\Users\Lenovo\Downloads\download  orng.jpg">
+             <h1>Orange</h1>
+                <div class="price"> Rs.30/- -150/-</div>
+                <div class="stars"> 
+                 <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> </div>
+                <a href="#orange" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+         </div>
+            <div class="swiper-slide box">
+                     <img src="c:\Users\Lenovo\Downloads\images 5.jpg">
+                  <h1>Pinapple</h1>
+                     <div class="price"> Rs.150/- -200/-</div>
+                       <div class="stars"> 
+                                    <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> </div>
+                <a href="#pinapple" class="btn"><btn onclick="save()">Add ro cart</btn></a>
+                            </div>
+                            
+                      </div>
+         </div>   
+            
+</section>
+<!--product-->
+
+
+<!--categories-->
+
+<section class="categories" id="categories">
+    <h1 class="heading">product <span>categories</span></h1>
+      <div class="box-container">
+     <div class="box">    
+        <img src="c:\Users\Lenovo\Downloads\veg.jpg">
+        <h3>Vegetables</h3>
+        <p>Upto 55% off</p>
+        <a href="link .html" class="btn">Order now</a>
+    </div>
+        <div class="box">
+            <img src="c:\Users\Lenovo\Downloads\furits.jpg">
+            <h3>Fruits</h3>
+            <p>Upto 60% off</p>
+            <a href="#home" class="btn">Order now</a>
+        </div>
+        
+        <div class="box">
+            <img src="c:\Users\Lenovo\Downloads\NicePng_pudina-png_9579536.png">
+            <h3>Dairy Product</h3>
+            <p>Upto 30% off</p>
+            <a href="#home" class="btn">Order now</a>
+        </div>
+        <div class="box">
+            <img src="c:\Users\Lenovo\Downloads\non.jpg">
+            <h3>Non-Veg</h3>
+            <p>Upto 40% off</p>
+            <a href="#home" class="btn">Order now</a>
+        </div>
+    </div>
+
+</section>
+
+<!--categories-->
+
+
+<!--review-->
+
+<section class="review" id="review">
+    <h1 class="heading">Customer's <span>Review</span></h1>
+   
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="c:\Users\Lenovo\Downloads\360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg">
+                <p>The staff was great. The receptionists were very helpful and answered all our questions. The room was clean and bright, and the room service was always on time. Will be coming back! Thank you so much.”</p>
+                <h3>Jhon Deo</h3>
+                <div class="stars"> 
+                  <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 
+            </div>
+           
+        </div>
+                
+        
+    
+
+    <div class="swiper-slide box">
+        <img src="c:\Users\Lenovo\Downloads\images (1),,.jpg">
+        <p>"My husband and I went for dinner in restaurant X and really enjoyed the atmosphere. The food was fresh and delicious, and the best part was that the chef sent us a dessert they had created that day. We were delighted.”</p>
+        <h3>Saria comb</h3>
+        <div class="stars"> 
+            <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i> 
+    </div>
+   
+</div>
+
+<div class="swiper-slide box">
+    <img src="c:\Users\Lenovo\Downloads\download (1).jpg">
+    <p>The tool X has really automated some of our company  processes. We now spend less time doing manual work. It making [problem] very easy for us. Thanks to its scheduling feature, we not need staff to work outside of business hours.</p>
+    <h3>harry woshiton</h3>
+    <div class="stars"> 
+        <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i> 
+</div>
+
+</div>
+
+<div class="swiper-slide box">
+    <img src="c:\Users\Lenovo\Downloads\216541.jpg">
+    <p>The experience was great. The massage was very relaxing and spending a day there was a great idea. All facilities are clean. The choice of saunas/pools is very remarkable.</p>
+    <h3>Humban</h3>
+    <div class="stars"> 
+        <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i> 
+         </div>
+        </div> 
+        
+        
+        </div>
+
+     </div>
+        
+</section>
+<!--review-->
+
+<!--footer-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>
+                Grocery  <i class="fa fa-shopping-basket"></i> </h3>
+                <p>Tap the link and follow us on social media</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/nitinnl.lohumi"class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=gici0xqu4z62&utm_content=houkmgl" class="fa fa-instagram"></a>
+                    <a href="https://telegram.org/dl" class="fa fa-telegram"></a>
+                    <a href="https://wa.me/qr/FHFUD3TPSZ5KK1" class="fa fa-whatsapp"></a>
+
+                </div>
+        </div>
+
+        <div class="box">
+            <h3> Contact INFO  </h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i>+91 7417696780
+               </a>
+               <a href="#" class="links"><i class="fa fa-envelope"></i> lohuminitin@gmail.com
+               </a> 
+              
+               <a href="#" class="links"><i class="fa fa-map-marker"></i>Uttrakhand,bageshwar,garur.
+               </a>
+        </div>
+
+        <div class="box">
+            <h3>QuicK LinKs</h3>
+         <a href="#home" class="links"><i class="fa fa-arrow-right"></i>home</a>
+         <a href="#feature" class="links"><i class="fa fa-arrow-right"></i>feature</a>
+         <a href="#product" class="links"><i class="fa fa-arrow-right"></i>product</a>
+         <a href="#categories" class="links"><i class="fa fa-arrow-right"></i>categories</a>
+         <a href="#review" class="links"><i class="fa fa-arrow-right"></i>review</a>
+        </div>
+        <div class="box">
+            <h3>NewsLetters</h3>
+         <p>Subscribe for latest news </p>
+         <input type="email" placeholder="Enter your email..." class="email">
+         <input type="submit" value="subscribe" class="btn">
+         <img src="c:\Users\Lenovo\Downloads\Google_Pay_Logo_(2020)-vcxe3.png" class="payment-img">
+         <img src="c:\Users\Lenovo\Downloads\Paytm_Cricle_Logo_PNG_vqitdi.png" class="payment-img">
+         <img src="c:\Users\Lenovo\Downloads\Phonepe_SVG_Icon_wjxfcp.png" class="payment-img">
+         <img src="c:\Users\Lenovo\Downloads\Unified_Payments_Interface_PNG_ljp5cq.png" class="payment-img">
+        </div>
+    </div>
+
+
+<div class="credit">Created by <span> @NITIN LOHUMI </span>| All right reserved.</div>
+
+
+
+</section>
+
+
+
+
+<!--footer-->
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="java/script.js"></script>
+    </body>
+</html>
